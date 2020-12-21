@@ -5,8 +5,8 @@ using namespace std;
 class Array
 {
     int array[100]={0};
-    int capacity;
-    int size;
+    int capacity;                   //Maximum storage capacity of Array[].
+    int size;                       //Current size of the Array[].
 
 public:
 
