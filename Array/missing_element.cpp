@@ -1,3 +1,4 @@
+//Missing element in an arithmetic Progression
 #include<iostream>
 using namespace std;
 
@@ -36,7 +37,7 @@ public:
     }
 };
 
-int main()
+int main(void)
 {
     Array arr;
     int c;
@@ -46,4 +47,6 @@ int main()
         cout<<"No element missing"<<endl;
     else
         cout<<"Missing element is "<<c<<endl;
+    
+    return 0;
 }
